@@ -33,6 +33,11 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    height: 100vh;
+}
+
+body > * {
+    padding: 0 18em;
 }
 
 .header {
@@ -42,21 +47,23 @@ body {
 }
 .navbar {
     display: flex;
-    padding: 10px 20px;
-    gap: 2em;
-    align-items: baseline;
+    padding: 10px 0;
+    gap: 1.5rem;
+    align-items: center;
 }
 .navbar a{
     color: white;
 }
 
 .logo {
-    display: inline;
+    display: inline-flex;
     margin-right: auto;
+    gap: 0.5rem;
+    align-items: baseline;
 }
 .logo-img {
-    width: 15px;
-    height: auto;
+    flex-shrink: 0;
+    height: 30px;
 }
 .logo-text {
     color: #F9FAF8;
