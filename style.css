@@ -162,4 +162,10 @@ body > * {
 .footer {
     flex: 1;
     display: flex;
+    justify-content: center;
+    padding-bottom: 1em;
+}
+.made-by, .credit {
+    text-align: center;
+    color: #F9FAF8;
 }
