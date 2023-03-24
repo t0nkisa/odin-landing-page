@@ -3,7 +3,89 @@
 }
 
 html {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.is-dark {
+    background-color: #1F2937;
+}
+
+.is-gray {
+    background-color: #E5E7EB;
+}
+
+.is-blue {
+    background-color: #3882F6;
+}
+
+/* Styled until layout is finished */
+img {
+    width: 30px;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    display: flex;
+    padding: 10px 20px;
+    gap: 2em;
+    align-items: baseline;
+}
+.navbar a{
+    color: white;
+}
+
+.logo {
+    display: inline;
+    margin-right: auto;
+}
+.logo-img {
+    width: 15px;
+    height: auto;
+}
+.logo-text {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+#apps {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+.apps {
+    display: flex;
+}
+
+
+#quote {
+    flex: 2;
+    display: flex;
+}
+
+
+#cta {
+    flex: 2;
+    display: flex;
+}
+
+
+.footer {
+    flex: 1;
+    display: flex;
 }
