@@ -37,7 +37,7 @@ body {
 }
 
 body > * {
-    padding: 0 18em;
+    padding: 0 28em;
 }
 
 .header {
@@ -45,6 +45,7 @@ body > * {
     display: flex;
     flex-direction: column;
 }
+
 .navbar {
     display: flex;
     padding: 10px 0;
@@ -54,7 +55,6 @@ body > * {
 .navbar a{
     color: white;
 }
-
 .logo {
     display: inline-flex;
     margin-right: auto;
@@ -69,6 +69,41 @@ body > * {
     color: #F9FAF8;
     font-size: 24px;
 }
+
+.hero {
+    display: flex;
+    padding-bottom: 2em;
+}
+.hero-content {
+    width: 60%;
+}
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.title-context {
+    font-size: 18;
+    color: #E5E7EB;
+}
+
+.hero-img {
+    width: 350px;
+    border: white 1px solid;
+    margin-left: auto;
+}
+
+.btn {
+    padding: 0.6em 2em;
+    border-radius: 1em;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+
+
+
+
 
 #apps {
     flex: 3;
