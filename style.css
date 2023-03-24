@@ -100,19 +100,39 @@ body > * {
     font-weight: 700;
 }
 
-
-
-
-
-
 #apps {
     flex: 3;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.app-context {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
 }
 .apps {
     display: flex;
+    justify-content: start;
 }
+
+.apps img {
+    width: 110px;
+    margin-bottom: 10px;
+    padding: 1px;
+    border: 5px #3882F6 solid;
+    border-radius: 1em;
+}
+.apps figcaption {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
 
 
 #quote {
