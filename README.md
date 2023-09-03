@@ -3,7 +3,7 @@ A landing page for the odin project course.
 
 Tried to make as close as possible while maintaining my product idea.
 
-# State of project: Done!
+# Done!
 
 # Credits
 Images made by - Alexander Shatov
